@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reserve</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="IIT.png"/>
+</head>
+
+    <body class="reg">
+        <div class="banner7">
+
+            <div class="navbar">
+                <img src="" class="logo">
+                <ul>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <h1 id="RF">REGISTRATION FORM</h1>
+
+            <div class="Container3">
+                <form id="appointment-form">
+
+                    <div class="form-group">
+                        <input type="text" id="yname" placeholder="Your Name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="last name" placeholder="Last Name" name="last name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="date" id="date" placeholder="date" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Phone no." name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="team" placeholder="Address" name="Address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="username" id="username" placeholder="username" name="username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" id="password" placeholder="Password" name="password" required>
+                    </div>
+
+                </form>
+
+                <button id="popupButton">Submit</button>
+            
+                <!-- Popup Message Container -->
+                <div id="popup" class="popup">
+                    <div class="popup-content">
+                        <span id="popupMessage"></span>
+
+                        <p class="mes">The form was submitted successfully.</p>
+                        <br>
+                        <span id="closePopup" class="close-popup">OK</span>
+                    </div>
+                </div>
+                <script src="script.js"></script>
+            </div>
+        </div>
+    </body>
+</html>

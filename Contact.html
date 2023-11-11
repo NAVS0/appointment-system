@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="IIT.png"/>
+</head>
+
+<body>
+    <div class="banner3">
+        <div class="navbar">
+            <img src="" class="logo">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+                <li><a href="Official.html">log out</a></li>
+                
+            </ul>
+        </div>
+        
+        <h1 class="contact">Contact Us</h1>
+        
+        <div class="form">
+            <form action="process_contact_form.php" method="post">
+                <input type="text" id="yname" placeholder="Your Name" name="name" required>
+                <input type="email" id="email" placeholder="Email" name="email" required>
+                <textarea id="message" placeholder="Message" rows="4" required></textarea>
+            </form>
+        
+            <button id="popupButton">Submit</button>
+        
+            <!-- Popup Message Container -->
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span id="popupMessage"></span>
+
+                    <p class="mes">Your submission has been sent.</p>
+                    <br>
+                    <span id="closePopup" class="close-popup">OK</span>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        
+        </div>
+
+    </div>
+</body>
+</html>
